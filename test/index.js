@@ -1,0 +1,1 @@
+const function = require('./function');
