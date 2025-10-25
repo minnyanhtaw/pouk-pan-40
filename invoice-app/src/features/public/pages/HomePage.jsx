@@ -1,8 +1,13 @@
+import GsapTo from "../components/GsapTo";
+import HeroSection from "../components/HeroSection";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <>
+      {/* <HeroSection /> */}
+      <GsapTo />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
