@@ -1,4 +1,6 @@
 import GsapFrom from "../components/GsapFrom";
+import GsapFromTo from "../components/GsapFromTo";
+import GsapTimeline from "../components/GsapTimeline";
 // import GsapTo from "../components/GsapTo";
 // import HeroSection from "../components/HeroSection";
 
@@ -7,7 +9,9 @@ const HomePage = () => {
     <>
       {/* <HeroSection /> */}
       {/* <GsapTo /> */}
-      <GsapFrom />
+      {/* <GsapFrom /> */}
+      {/* <GsapFromTo /> */}
+      <GsapTimeline />
     </>
   );
 };
