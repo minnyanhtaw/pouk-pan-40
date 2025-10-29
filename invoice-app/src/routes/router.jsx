@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import publicRoute from "./publicRoute";
 import PublicLayout from "../features/public/components/PublicLayout";
+import publicRoute from "./publicRoute";
+import authRoute from "./authRoute";
 
 const router = createBrowserRouter([
   {
@@ -8,6 +9,7 @@ const router = createBrowserRouter([
     element: <PublicLayout />,
     children: [...publicRoute],
   },
+  ...authRoute,
 ]);
 
 export default router;
