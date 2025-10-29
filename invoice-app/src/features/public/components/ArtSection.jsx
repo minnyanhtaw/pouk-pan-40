@@ -12,7 +12,7 @@ const ArtSection = () => {
       scrollTrigger: {
         trigger: "#art",
         start,
-        end: "bottom center",
+        end: "bottom bottom",
         scrub: 1.5,
         pin: true,
       },
@@ -28,12 +28,12 @@ const ArtSection = () => {
         scale: 1.3,
         maskPosition: "center",
         maskSize: "400%",
-        duration: 1.5,
+        duration: 1,
         ease: "power1.inOut",
       })
       .to("#masked-content", {
         opacity: 1,
-        duration: 1.5,
+        duration: 1,
         ease: "power1.inOut",
       });
   });
