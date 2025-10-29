@@ -1,6 +1,7 @@
 import AboutSection from "../components/AboutSection";
 import ArtSection from "../components/ArtSection";
 import CocktailSection from "../components/CocktailSection";
+import ContactSection from "../components/ContactSection";
 import HeroSection from "../components/HeroSection";
 import MenuSection from "../components/MenuSection";
 
@@ -12,12 +13,7 @@ const HomePage = () => {
       <AboutSection />
       <ArtSection />
       <MenuSection />
-      <div className="min-h-screen bg-black"></div>
-      <div className="min-h-screen bg-black"></div>
-      <div className="min-h-screen bg-black"></div>
-      <div className="min-h-screen bg-black"></div>
-      <div className="min-h-screen bg-black"></div>
-      <div className="min-h-screen bg-black"></div>
+      <ContactSection />
     </>
   );
 };
