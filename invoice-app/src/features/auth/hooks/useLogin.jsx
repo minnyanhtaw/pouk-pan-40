@@ -24,7 +24,7 @@ const useLogin = () => {
       }
       setToken(json.token);
       setAccount(json.user);
-      navigate("/");
+      navigate("/dashboard");
       toast.success("User Login successfully");
     } catch (error) {
       console.log(error);
